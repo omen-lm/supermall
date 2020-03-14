@@ -15,7 +15,7 @@ export default {
     path:String,
     activeColor:{
       type:String,
-      default:'#eb4d4b'
+      default:' var(--color-tint)'
     }
   },
   data(){

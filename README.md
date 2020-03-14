@@ -1,3 +1,5 @@
+tips:若需获取新的接口地址请添加微信：coderwhy001
+
 # supermall
 
 ## Project setup
