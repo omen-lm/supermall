@@ -1,4 +1,5 @@
 import {debounce} from 'common/utils'
+import {POP, NEW, SELL} from "./const";
 
 export const itemListenerMixin ={
   data(){

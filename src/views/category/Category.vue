@@ -27,7 +27,7 @@
   import TabContentDetail from './childComps/TabContentDetail'
 
   import {getCategory, getSubcategory, getCategoryDetail} from "../../network/category";
-  // import {POP, SELL, NEW} from "../../common/const";
+  import {POP, SELL, NEW} from "../../common/const";
   import {tabControlMixin} from "../../common/mixin";
 
   export default {
@@ -103,6 +103,7 @@
 		      // 3.将获取的数据保存下来
 		      this.categoryData[this.currentIndex].categoryDetail[type] = res
           this.categoryData = {...this.categoryData}
+          
         })
       },
       /**
@@ -124,6 +125,8 @@
     background-color: var(--color-tint);
     font-weight: 700;
     color: #fff;
+    position: relative;
+    z-index: 9;
   }
 
   .content {
